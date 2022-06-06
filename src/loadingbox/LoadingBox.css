@@ -1,0 +1,15 @@
+.loadingBoxComp{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items:center ;
+}
+
+.CircleLoaderSVG{
+}
+
+
+.LoadingText{
+   
+        margin-left: .5rem;
+}

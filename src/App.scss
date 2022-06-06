@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+        font-family: 'Lato', sans-serif;    
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+
+        transition:all .3s ease-in-out;
+}
+
+
+body{
+  background-color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: grey;
+  
+  
+  
+}
+
+#wrapper{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  height :100vh;
+  align-items: center;
+}
+
+#quote-box{
+  
+          -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26); 
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.06);
+        background-color: snow;
+        padding:40px 50px;
+        border-radius:15px;
+  
+        width:650px;
+        min-height:30vh;
+  
+    @media screen and (max-width:900px){
+      width:80vw;
+  }
+}
+
+.quote-text{
+  font-size: 2rem;
+  color:black;
+}
+
+.quote-author{
+  text-align:right;
+  padding: 20px 0;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  a{
+    text-decoration:none;
+    color:black;
+    
+    &:first-child{
+      margin-right:2px;
+    }
+    
+    i{
+      font-size: 2.6rem;
+    }
+    
+  }
+}
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font: inherit;
+    cursor: pointer;
+    // outline: inherit;
+  
+    border-radius:4px;
+}
+
+
+.footer {
+  width: 80vw;
+  text-align: center;
+  margin: 20px auto 30px auto;
+  font-size: 0.8rem;
+  color: #fff;
+  a {
+    font-weight: 500;
+    text-decoration:none;
+    color: #fff;
+    
+    
+    &:hover{
+      color:#C7D3D4FF;  
+      transform: translateY(8px);
+}
+  }
+}
+
+.alert-enter {
+        opacity: 0;
+      }
+.alert-enter-active {
+opacity: 1;
+}
+
+.alert-exit {
+        opacity: 1;
+        transition: opacity 300ms;
+
+      }
+      .alert-exit-active {
+        opacity: 0;
+        transition: opacity 300ms;
+      }
