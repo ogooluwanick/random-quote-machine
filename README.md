@@ -1,5 +1,5 @@
 # Checkout my project
-[https://earnest-brioche-e24fb9.netlify.app](https://ogooluwanick-random-quote-machine.netlify.app)
+[ogooluwanick-random-quote-machine.netlify](https://ogooluwanick-random-quote-machine.netlify.app)
 
 
 # Getting Started with Create React App
